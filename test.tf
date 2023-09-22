@@ -1,6 +1,6 @@
-provider "aws"{
-    region = "ap-northeast-1"
-    #For Tokyo region
+terraform {
+    required_providers {
+      aws = ">= version"
+    }
+    
 }
-
-resource "aws_instance"
